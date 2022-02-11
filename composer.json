@@ -1,0 +1,31 @@
+{
+  "name": "chip/coding-challenge",
+  "description": "A coding challenge for applicants",
+  "type": "project",
+  "homepage": "https://www.chip.de",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "CHIP Digital GmbH",
+      "role": "company"
+    }
+  ],
+  "require": {
+      "doctrine/orm": "^2.11.0",
+      "doctrine/dbal": "^3.2",
+      "doctrine/annotations": "1.13.2",
+      "symfony/yaml": "^5.4",
+      "symfony/cache": "^5.4",
+    "irap/autoloader": "^2.0",
+    "symfony/maker-bundle": "^1.36",
+    "symfony/orm-pack": "^2.2",
+    "twig/twig": "^2.0"
+    },
+    "autoload": {
+      "psr-0": {"": "src/"}
+    },
+  "config": {
+
+    "platform-check": false
+  }
+}
